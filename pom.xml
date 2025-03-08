@@ -2,17 +2,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.6.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>ca.mihye_bang</groupId>
 	<artifactId>Assignment3_MihyeBang</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version> <!-- Version is a snapshot -->
 	<name>Assignment3_MihyeBang</name>
 	<description>Assignment 3</description>
+
 	<properties>
 		<java.version>11</java.version>
 		<jacoco.version>0.8.7</jacoco.version>
@@ -21,6 +24,7 @@
     		<sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>
     		<sonar.language>java</sonar.language>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -60,18 +64,18 @@
 	<repositories>
 		<repository>
 			<id>nexus-snapshots</id>
-			<url>http://172.31.31.53:8081/repository/maven-snapshots/</url>
+			<url>http://172.31.31.53:8081/repository/maven-snapshots/</url> <!-- Updated to use private IP -->
 		</repository>
 	</repositories>
 
 	<distributionManagement>
     <repository>
         <id>nexus-releases</id>
-        <url>http://172.31.31.53:8081/repository/maven-releases/</url>
+        <url>http://172.31.31.53:8081/repository/maven-releases/</url> <!-- Updated to use private IP -->
     </repository>
     <snapshotRepository>
         <id>nexus-snapshots</id>
-        <url>http://172.31.31.53:8081/repository/maven-snapshots/</url>
+        <url>http://172.31.31.53:8081/repository/maven-snapshots/</url> <!-- Updated to use private IP -->
     </snapshotRepository>
 </distributionManagement>
 
