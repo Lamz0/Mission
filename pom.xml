@@ -65,15 +65,15 @@
 	</repositories>
 
 	<distributionManagement>
-        <repository>
-            <id>maven-releases</id>
-            <url>http:172.31.31.53:8081/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>maven-snapshots</id>
-            <url>http://172.31.31.53:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
+    <repository>
+        <id>nexus-releases</id>
+        <url>http://172.31.31.53:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+        <id>nexus-snapshots</id>
+        <url>http://172.31.31.53:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
 
 	<build>
 		<plugins>
