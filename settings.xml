@@ -1,12 +1,14 @@
-<servers>
+<settings>
+  <servers>
     <server>
-        <id>nexus-releases</id>
-        <username>admin</username>
-        <password>2901.Lamz_0</password>
+      <id>nexus-releases</id>
+      <username>admin</username>
+      <password>2901.Lamz_0</password>
     </server>
     <server>
-        <id>nexus-snapshots</id>
-        <username>admin</username>
-        <password>2901.Lamz_0</password>
+      <id>nexus-snapshots</id>
+      <username>admin</username>
+      <password>2901.Lamz_0</password>
     </server>
-</servers>
+  </servers>
+</settings>
