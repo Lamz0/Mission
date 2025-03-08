@@ -1,7 +1,12 @@
 <servers>
     <server>
+        <id>nexus-releases</id>
+        <username>admin</username>
+        <password>2901.Lamz_0</password>
+    </server>
+    <server>
         <id>nexus-snapshots</id>
         <username>admin</username>
-        <password>524aa0e0-15a8-4e57-b608-e482705262c4</password>
+        <password>2901.Lamz_0</password>
     </server>
 </servers>
