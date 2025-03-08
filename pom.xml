@@ -60,18 +60,18 @@
 	<repositories>
 		<repository>
 			<id>nexus-snapshots</id>
-			<url>http://172.31.31.53:8081/repository/maven-snapshots/</url>
+			<url>http://ec2-34-227-60-47.compute-1.amazonaws.com:8081/repository/maven-snapshots/</url>
 		</repository>
 	</repositories>
 
 	<distributionManagement>
     <repository>
         <id>nexus-releases</id>
-        <url>http://172.31.31.53:8081/repository/maven-releases/</url>
+        <url>http://ec2-34-227-60-47.compute-1.amazonaws.com:8081/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
         <id>nexus-snapshots</id>
-        <url>http://172.31.31.53:8081/repository/maven-snapshots/</url>
+        <url>http://ec2-34-227-60-47.compute-1.amazonaws.com:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
 
